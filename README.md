@@ -1,12 +1,21 @@
-# React + Vite
+# Advanced Movie Database
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application to browse movies and TV shows using [TheMovieDB API](https://www.themoviedb.org/) and Material-UI.  
+Users can view popular and top-rated movies, search for specific titles, see detailed information, and add movies to a favorites list.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse **popular** and **top-rated** movies
+- **Search** movies by title
+- **View detailed information** about a movie
+- **Add/remove movies to favorites** (persisted in localStorage)
+- Responsive design with Material-UI components
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Material-UI (MUI)
+- React Router v6
+- Axios
+- TheMovieDB API
+- LocalStorage
